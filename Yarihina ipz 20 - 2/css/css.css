@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-section .centred-block {
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    line-height: 3;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.main-section {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-image: url('../background/trio.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; 
+    transition: all .5s;
+}
+
+#menu {
+    font-size: 20px;
+    line-height: 1.6;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    margin:auto;
+}
+
+#menu ul {
+    font-size: 12px;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; 
+    display: none;
+    padding: 0;
+}
+
+#menu a:hover{
+    background: #808291;
+}
+
+
+#menu li:hover ul{
+ display: block;
+}
+
